@@ -70,3 +70,28 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Scenes/Main Menu.unity
+Assets/Starfield Skybox.meta
+Assets/Starfield Skybox/Demo.meta
+Assets/Starfield Skybox/Demo/DemoScene.unity
+Assets/Starfield Skybox/Demo/DemoScene.unity.meta
+Assets/Starfield Skybox/Demo/DemoSceneSettings.lighting
+Assets/Starfield Skybox/Demo/DemoSceneSettings.lighting.meta
+Assets/Starfield Skybox/Demo/Script.meta
+Assets/Starfield Skybox/Demo/Script/LookCamera.cs
+Assets/Starfield Skybox/Demo/Script/LookCamera.cs.meta
+Assets/Starfield Skybox/Demo/Textures.meta
+Assets/Starfield Skybox/Demo/Textures/Back_Tex.png
+Assets/Starfield Skybox/Demo/Textures/Back_Tex.png.meta
+Assets/Starfield Skybox/Demo/Textures/Down_Tex.png
+Assets/Starfield Skybox/Demo/Textures/Down_Tex.png.meta
+Assets/Starfield Skybox/Demo/Textures/Front_Tex.png
+Assets/Starfield Skybox/Demo/Textures/Front_Tex.png.meta
+Assets/Starfield Skybox/Demo/Textures/Left_Tex.png
+Assets/Starfield Skybox/Demo/Textures/Left_Tex.png.meta
+Assets/Starfield Skybox/Demo/Textures/Right_Tex.png
+Assets/Starfield Skybox/Demo/Textures/Right_Tex.png.meta
+Assets/Starfield Skybox/Demo/Textures/Up_Tex.png
+Assets/Starfield Skybox/Demo/Textures/Up_Tex.png.meta
+Assets/Starfield Skybox/Skybox.mat
+Assets/Starfield Skybox/Skybox.mat.meta
