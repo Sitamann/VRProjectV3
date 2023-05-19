@@ -10,19 +10,19 @@ public class DarkenScreen : MonoBehaviour
     private void Start()
     {
         image = GetComponent<Image>();
-        StartCoroutine(FadeOut());
+        StartCoroutine(FadeIn());
     }
 
-    private System.Collections.IEnumerator FadeOut()
+    private System.Collections.IEnumerator FadeIn()
     {
         float elapsedTime = 0f;
         Color startColor = image.color;
-        Color targetColor = new Color(startColor.r, startColor.g, startColor.b, 0f);
+        Color targetColor = new Color(startColor.r, startColor.g, startColor.b, 100f);
 
         while (elapsedTime < transitionDuration)
         {
             elapsedTime += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsedTime / transitionDuration);
+            float t = Mathf.Clamp01(elapsedTime * transitionDuration);
             image.color = Color.Lerp(startColor, targetColor, t);
             yield return null;
         }
